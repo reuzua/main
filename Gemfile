@@ -7,5 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2'
 end
 
-gem "file_exists"
-gem "flexible_include"
+# gem "file_exists"
+# gem "flexible_include"
