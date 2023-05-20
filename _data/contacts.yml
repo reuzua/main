@@ -1,0 +1,76 @@
+#
+# Region
+#
+- type: region
+  item: zakarpatska
+  name: Мережа Вебсайтів Нерухомості - Україна
+  address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
+  phone_main: 380974949649
+  phone_hot: 380974949649
+  phone_fax: 380974949649
+  email: info@realestate.uz.ua
+  www: https://www.realestate.uz.ua/
+
+#
+# District
+#
+- type: district
+  item: uzhhorodskyy
+  name: Нерухомість у Ужгородcькому районі
+
+#
+# District / Town
+#
+- type: town
+  item: rakhiv
+  name: Нерухомість в місті Рахів
+
+#
+# Region / City
+#
+- type: city
+  item: uzhhorod
+  name: Нерухомість у місті Ужгород
+
+#
+# Developers / Company
+#
+- type: developer
+  item: builder
+  name: Будівельна компанія "Будівельник"
+
+#
+# Realtor / Agent
+#
+- type: realtor
+  item: bandera
+  name: Нерухомість в Ужгороді - Степан Бандера
+  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
+  # phone_main: 380672349221
+  # phone_hot: 380672349221
+  # phone_fax: 380672349221
+  # email: info@realestate.uz.ua
+  # www: https://www.realestate.uz.ua/
+
+- type: realtor
+  item: agent
+  name: Нерухомість від Агента Продавця
+  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
+  # phone_main: 380504949649
+  # phone_hot: 380504949649
+  # phone_fax: 380504949649
+  # email: agent@realestate.uz.ua
+  # www: https://www.realestate.uz.ua/
+
+#
+# Agency / ahentsiya
+#
+- type: agency
+  item: ahentsiya
+  name: Нерухомість від Агенції Продавця
+  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
+  # phone_main: 380504949649
+  # phone_hot: 380504949649
+  # phone_fax: 380504949649
+  # email: agency@realestate.uz.ua
+  # www: https://www.realestate.uz.ua/
