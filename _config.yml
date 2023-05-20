@@ -98,6 +98,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
 
+#plugins_dir: ./_plugins
+
 sass:
   style: compressed
 
