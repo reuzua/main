@@ -51,7 +51,7 @@
     $(document).ready(function() { {{ region | remove: "-" }}Random(); });
   {%- else -%}
     {%- if sr.url != site.url -%}
-      document.getElementById("{{ region }}").innerHTML = '<div class="alert alert-success mb-0" role="alert"><a href="{{ sr.url }}" class="alert-link">Додати&nbsp;оголошення</a> про {{ sr.title | replace_first: "Н", "н" }}</div>';
+      document.getElementById("{{ region }}").innerHTML = '<div class="alert alert-success mb-0" role="alert"> <a href="{{ sr.url }}" class="alert-link">Додати&nbsp;оголошення</a> про {{ sr.title | replace_first: 'Н', 'н' }}</div>';
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
