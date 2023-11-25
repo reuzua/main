@@ -1,1 +1,4 @@
-{%- assign records = owners -%}
+{%- assign raichynets = site.data.raichynets -%}
+{%- assign records = owners
+  | concat: raichynets
+-%}
