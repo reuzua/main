@@ -7,5 +7,5 @@ sitemap: false
 {%- include js/bootstrap.min.js -%}
 {%- include js/bootstrap.smoothscroll.min.js -%}
 {%- include js/tom-select.base.min.js -%}
-{%- include js/ads.home.js -%}
+{%- assign top = site.data.top -%}{%- if top.size > 0 -%}{%- include js/ads.home.js -%}{%- endif -%}
 {%- include js/realtyua.js -%}

@@ -3,7 +3,8 @@ main_city: uzhhorod
 main_region: zakarpatska
 
 flag_ua_city: Ужгород
-deck_region_in: Закарпатcької області
+deck_region_in: Закарпатcької
+deck_region_at: Закарпатcькій
 deck_region: Закарпатська
 
 local_communities: >
@@ -41,8 +42,8 @@ ukr: Українська нерухомість
 realestate: Нерухомість
 realestate_at: Нерухомість у
 
-m_za: за&nbsp;1&nbsp;м<sup>2</sup>
-m: м<sup>2</sup>
+m_za: за&nbsp;1&nbsp;м²
+m: м²
 
 news_list_empty: Новин поки що немає :(
 decisions_list_empty: Рішень поки що немає :(
@@ -171,7 +172,9 @@ re_all_h2: Перелік пропозицій купівлі, продажу т
 re_seller_add_navtitle: і рієлтори, які професійно замаються операціями з нерухомостю
 re_free_ads_in: Безкоштовні оголошення про нерухомість в
 re_from_developer: Новобудови від забудовника
-re_page_ads: Сторінка оголошення
+re_page_ads: cторінка&nbsp;оголошення
+re_more_ads: подивитиcь,переглянути,зазирнути в,сторінка,посилання на,перейти до
+re_ads: '&nbsp;оголошення'
 apartment_house_in: Квартири, будинки в
 #
 # Site
@@ -277,3 +280,13 @@ articles: статті
 articles_all: Усі статті
 articles_back_list: Повернутися до списку статтей
 articles_list_empty: Cтаттей поки що немає :(
+#
+# Property
+#
+property: власність
+property_all: Усі власність
+property_back_list: Повернутися до списку власності
+property_list_empty: >
+  <p>У списку записів поки що немає :( ...</p>
+  <p>До цього переліку потрапляють лише записи у яких є окрема сторінка з описом об'єкта нерухомості.</p>
+  <p>Для перегляду інших записів перейдіть у режим списку.</p>
