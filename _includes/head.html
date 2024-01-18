@@ -1,9 +1,5 @@
 {%- include location.html -%}
 
-{% comment %}
-  {%- assign slash = back -%}
-{% endcomment %}
-
 {%- capture tlocation -%}
   {%- if location and slashd.size > 4 and paged contains '/city/' or paged contains '/town/' -%}
     {% unless slashd.size < 4 or pageu contains '/all.html' %}
@@ -44,6 +40,7 @@
 {%- endcapture -%}
 
 {%- include meta-name.html -%}
+<link rel="preconnect" href="//fonts.gstatic.com">
 
 {%- if pageu contains '/map.html' and page.layout == 'map' -%}
   <link rel="preload" href="{{ "/assets/css/main.m.css" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" as="style">
