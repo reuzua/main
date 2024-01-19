@@ -6,9 +6,23 @@ layout: default
 {%- include price-name.html -%}
 {%- include back-title.html minus='2' so='1' st='4' data='title' du='url' -%}
 {%- assign region = backu | split: '/' | last -%}
+{%- capture text -%}
+  {%- include start-ads.html -%}
+  {%- include price-name.html -%}
+  {%- include price.html -%}
+  {%- include body-ads.html -%}
+{%- endcapture -%}
+{%- assign text = text | remove: '&nbsp;' | strip_html | strip_newlines | replace: '. ','.' | replace: ', ',',' | url_encode -%}
+{%- if page.rent -%}
+  {%- assign hashtags = 'нерухомість,оренда' | url_encode -%}
+{%- else -%}
+  {%- assign hashtags = 'нерухомість,продаж' | url_encode -%}
+{%- endif -%}
+{%- assign purl = pageu | absolute_url | url_encode -%}
 <div class="row">
   <div class="col-12">
     <div class="d-flex justify-content-end">
+      {%- include share.html -%}
       {%- include navsection-re.html region=region url=backu -%}
     </div>
     <h1>{{ paget }} {{ idata }}, {{ price_name }} <span class="badge badge-primary">{{ price }}&nbsp;₴</span></h1>
