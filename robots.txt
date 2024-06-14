@@ -9,7 +9,6 @@ Disallow: /assets/images/logo/
 Disallow: /assets/images/staff/
 Disallow: *.json
 Disallow: *.yml
-Disallow: *CNAME
 Disallow: /404.html
 Disallow: /add.html
 Disallow: /new.html
