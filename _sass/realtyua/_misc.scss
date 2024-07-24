@@ -190,3 +190,6 @@ main .leaflet-menu {
   overflow: hidden;
   object-position: 50% 50%;
 }
+
+.col-md-3 .float-left { z-index: 1; }
+.textarea ul, ol { z-index: -1; }
